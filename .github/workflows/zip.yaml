@@ -19,7 +19,7 @@ jobs:
                 tag=$(git describe --tags --abbrev=0)
                 release_name="sosnowiecki-txt-$tag"
 
-                7z a -tzip "${release_name}.zip" *
+                7z a -tzip "${release_name}.zip" "assets" "pack.mcmeta" "pack.png"
 
             - name: Publish
               uses: softprops/action-gh-release@v2

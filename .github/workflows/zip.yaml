@@ -1,0 +1,35 @@
+name: Publish
+
+on:
+    push:
+        tags:
+            - "v*.*"
+
+jobs:
+    release:
+        name: Release
+        strategy:
+            matrix:
+                kind: ['windows']
+                include:
+                    - kind: windows
+                      os: windows-latest
+                      target: win-x64
+        
+        runs-on: ${ {matrix.os }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Build
+              shell: bash
+              run: |
+                tag=$(git describe --tags --abbrev=0)
+                release_name="sosnowiecki-txt-$tag"
+
+                7z a -tzip "${release_name}.zip" *
+
+            - name: Publish
+              uses: softprops/action-gh-release@v2
+              with:
+                files: "sosnowiecki-txt-*"

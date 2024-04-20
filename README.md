@@ -1,9 +1,12 @@
 # Sosnowiecki textur pack (serwer chezjusza)
 
-## instrukcja instalacji dla nieporadnych
-- Po prawej stronie strony (xd) masz coś takiego jak releases (jak na rysunku poniżej)
-- wchodzisz w releases i ściągasz najnowszy (jak na rysunku poniżej)
-- no i bajlando
+## Jak coś dodać
+- klonujesz repo (standardowo)
 
-![Releases](instrukcja.png)
-![Tag](instrukcja2.png)
+1. Tekstura
+- podmieniasz wybraną texturę w `assets/minecraft/textures`
+
+2. Dźwięk
+
+    **Warto wiedzieć**, że wszystkie mapy dźwięków są w pliku mappings.txt
+- podmieniasz/dodajesz wybrany dźwięk w `assets/minecraft/sounds`

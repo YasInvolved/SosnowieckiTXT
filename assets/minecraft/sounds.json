@@ -1,0 +1,13 @@
+{
+    "music_disc.13": {
+        "replace": true,
+        "subtitle": "Maria Konopnicka - Rota",
+        "sounds": [
+            {
+                "name": "records/13",
+                "pitch": 1,
+                "stream": true
+            }
+        ]
+    }
+}

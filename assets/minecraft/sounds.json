@@ -8,5 +8,27 @@
                 "stream": true
             }
         ]
+    },
+    "item.armor.equip_elytra": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "elytra/good_morning",
+                "pitch": 1,
+                "volume": 1,
+                "stream": true
+            }
+        ]
+    },
+    "item.elytra.flying": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "elytra/elytra_loop",
+                "pitch": 1,
+                "volume": 1,
+                "stream": true
+            }
+        ]
     }
 }

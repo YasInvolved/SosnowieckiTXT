@@ -30,5 +30,16 @@
                 "stream": true
             }
         ]
+    },
+    "block.sculk_shrieker.shriek": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/wstawaj_ruro",
+                "pitch": 1,
+                "volume": 1,
+                "stream": true
+            }
+        ]
     }
 }

@@ -4,6 +4,7 @@
         "sounds": [
             {
                 "name": "radio_marmur/13",
+                "volume": 2,
                 "pitch": 1,
                 "stream": true
             }
@@ -36,7 +37,62 @@
         "sounds": [
             {
                 "name": "pierdoly/wstawaj_ruro",
+                "pitch": 1.3,
+                "volume": 0.5,
+                "stream": true
+            }
+        ]
+    },
+    "entity.creeper.primed": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/tnt_arm",
                 "pitch": 1,
+                "volume": 1,
+                "stream": true
+            }
+        ]
+    },
+    "entity.tnt.primed": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/tnt_arm",
+                "pitch": 1,
+                "volume": 1,
+                "stream": true
+            }
+        ]
+    },
+    "entity.generic.explode": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/explode",
+                "pitch": 1.3,
+                "volume": 0.5,
+                "stream": true
+            }
+        ]
+    },
+    "music.menu": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/niebieskie_swiatlo",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            }
+        ]
+    },
+    "music.game": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/ulala",
+                "pitch": 1.0,
                 "volume": 1,
                 "stream": true
             }

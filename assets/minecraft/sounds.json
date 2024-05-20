@@ -91,7 +91,7 @@
         "replace": true,
         "sounds": [
             {
-                "name": "pierdoly/ulala",
+                "name": "pierdoly/la_manga",
                 "pitch": 1.0,
                 "volume": 1,
                 "stream": true

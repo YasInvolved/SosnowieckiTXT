@@ -80,7 +80,37 @@
         "replace": true,
         "sounds": [
             {
+                "name": "pierdoly/blue",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/komar",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/chryzantemy",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/caramelldansen",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
                 "name": "pierdoly/niebieskie_swiatlo",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/scatman",
                 "pitch": 1.0,
                 "volume": 1,
                 "stream": true
@@ -91,9 +121,83 @@
         "replace": true,
         "sounds": [
             {
-                "name": "pierdoly/la_manga",
+                "name": "pierdoly/blue",
                 "pitch": 1.0,
                 "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/komar",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/chryzantemy",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/caramelldansen",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/niebieskie_swiatlo",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            },
+            {
+                "name": "pierdoly/scatman",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            }
+        ]
+    },
+    "item.mace.smash_air": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/rura",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            }
+        ]
+    },
+    "item.mace.smash_ground": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/rura",
+                "pitch": 1.0,
+                "volume": 1,
+                "stream": true
+            }
+        ]
+    },
+    "item.mace.smash_ground_heavy": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/rura",
+                "pitch": 1.0,
+                "volume": 2,
+                "stream": true
+            }
+        ]
+    },
+    "entity.wind_charge.wind_burst": {
+        "replace": true,
+        "sounds": [
+            {
+                "name": "pierdoly/siuuu",
+                "pitch": 1.0,
+                "volume": 2,
                 "stream": true
             }
         ]

@@ -1,6 +1,6 @@
-import re, os, json, yaml
+import re, os, json
 
-mapping_path: str = os.path.expandvars("%appdata%\\.minecraft\\assets\\indexes\\5.json")
+mapping_path: str = os.path.expandvars("%appdata%\\PrismLauncher\\assets\\indexes\\17.json")
 json_decoder = json.decoder.JSONDecoder()
 
 with open(file=mapping_path, mode="r") as f:

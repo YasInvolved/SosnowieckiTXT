@@ -1,3 +1,0 @@
-@echo off
-echo synchronizacja...
-git pull

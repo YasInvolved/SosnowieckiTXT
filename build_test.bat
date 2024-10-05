@@ -1,2 +1,2 @@
 @echo off
-winrar a -afzip -r "%appdata%\PrismLauncher\instances\1.21\.minecraft\resourcepacks\sosnowiecki-txt-test.zip" assets pack.mcmeta pack.png
+C:\"Program Files"\WinRAR\WinRAR.exe a -afzip -r "%appdata%\PrismLauncher\instances\"chezjusz 1.21"\.minecraft\resourcepacks\sosnowiecki-txt-test.zip" assets pack.mcmeta pack.png

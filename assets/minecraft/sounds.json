@@ -201,5 +201,13 @@
                 "stream": true
             }
         ]
+    },
+    "ambient.cave": {
+        "replace": true,
+        "sounds": [
+            "jasper.ogg",
+            "karta_muzyczna.ogg",
+            "przewaga.ogg"
+        ]
     }
 }

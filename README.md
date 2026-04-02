@@ -1,4 +1,4 @@
-# Sosnowiecki textur pack (serwer chezjusza)
+# Sosnowiecki textur pack (projekt dla jaj)
 
 ## Jak coś dodać
 - klonujesz repo (standardowo)
